@@ -30,6 +30,7 @@ kanaize = [
 # number, use kanji, decimal limit, separator, minus sign, result
 japanize_kana = [
     [0, False, 0, '', None, 'ゼロ'],
+    [200, False, 0, '', None, 'にひゃく'],
     [524, False, 0, '', None, 'ごひゃくにじゅうよん'],
     [618, False, 0, '', None, 'ろっぴゃくじゅうはち'],
     [3907, False, 0, '', None, 'さんぜんきゅうひゃくなな'],

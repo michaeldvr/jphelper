@@ -16,7 +16,7 @@ with open('README.rst', encoding='utf-8') as f:
 setup(
     name='jphelper',
     packages=find_packages(exclude=['*.tests', '*.tests.*', 'tests.*', 'tests']),
-    version='0.9',
+    version='0.9.1',
     description='A collection of japanese text and number manipulation tools.',
     author='Michael Devara',
     author_email='michael.devara@gmail.com',

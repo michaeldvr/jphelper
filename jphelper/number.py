@@ -56,7 +56,7 @@ def to_japanese(number, use_kanji=False, decimal_limit=5, separator='', minus_si
                 res = _join(separator, [res, consts.tens[ten][idx]])
                 prevs = False
         power -= 1
-    if 0 <= number < 10 or res == '':
+    if 0 < number < 10 or res == '':
         # res += consts.unit[number][idx]
         res = _join(separator, [res, consts.unit[number][idx]])
     return _join(separator, [res, decimals_str])
