@@ -7,6 +7,8 @@ A python library for processing your japanese learning materials.
 [![Codecov](https://img.shields.io/codecov/c/github/michaeldvr/jphelper.svg?style=flat-square)](https://codecov.io/gh/michaeldvr/jphelper)
 [![PyPI license](https://img.shields.io/pypi/l/jphelper.svg?style=flat-square)](https://github.com/michaeldvr/jphelper/blob/master/LICENSE)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/jphelper.svg?style=flat-square)](https://pypi.python.org/pypi/jphelper/)
+[![Travis](https://img.shields.io/travis/michaeldvr/jphelper.svg?style=flat-square)](https://travis-ci.org/michaeldvr/jphelper)
+
 
 ## Installation ##
 

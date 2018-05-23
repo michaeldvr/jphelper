@@ -3,13 +3,14 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
+sudo: false
 
 # install deps
 install:
-  - pip install pytest pytest-cov
+  - pip install pytest pytest-cov codecov
 
 # run tests
-script: pytest --cov=./
+script: pytest --cov=./jphelper/
 
 after_success:
   - codecov
