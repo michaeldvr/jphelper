@@ -8,3 +8,6 @@ build/*
 .coverage.*
 coverage.xml
 nosetests.xml
+.tox/*
+.eggs/*
+.pytest*

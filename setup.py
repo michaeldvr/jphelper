@@ -36,5 +36,7 @@ setup(
     url='https://github.com/michaeldvr/jphelper',
     long_description=long_desc,
     long_description_content_type='text/markdown; charset=UTF-8; variant=GFM',
-    python_requires='>=3'
+    python_requires='>=3',
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest']
 )
