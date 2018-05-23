@@ -4,3 +4,7 @@ build/*
 *.pyc
 ./*/__pycache__/*
 *.egg-info/*
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
