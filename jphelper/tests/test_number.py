@@ -1,4 +1,4 @@
-import unittest
+﻿import unittest
 import jphelper.number as number
 import jphelper.tests.assets as assets
 
@@ -35,4 +35,4 @@ class TestNumber(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    pass
